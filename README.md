@@ -2,6 +2,8 @@
 
 A place to store all my text animation components I've made for easy use in new projects.
 
+[View animation examples](https://tyaans-text-animations-tyaans-projects.vercel.app/)
+
 ## Text Animations
 
 - PushTextUp
