@@ -1,36 +1,37 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# My Reusable Text Animation Components!
 
-## Getting Started
+A place to store all my text animation components I've made for easy use in new projects.
 
-First, run the development server:
+## Text Animations
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- PushTextUp
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+On hover, hover text comes up from underneath and pushes initial text up and out. 
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- PushLettersUp
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Same as push text up but with staggered timing on letters. 
 
-## Learn More
+- PushTextUpMulti
 
-To learn more about Next.js, take a look at the following resources:
+Timed carousel type thing that rotates through a list of texts, each one pushing up from underneath. 
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- PushLettersUpMulti
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Same as PushTextUpMulti but with staggered timing on letters. 
 
-## Deploy on Vercel
+- PushLettersSideMulti
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Same as PushLettersUpMulti but letters go off to the left instead of up. 
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- UnderlineAcross
+
+On mouse enter, underline comes left to right, one mouse leave, underline goes right to left. 
+
+- UnderlineAcrossNoGlitch
+
+Same as UnderlineAcross, but uses different mechanics so it doesn't glitch when you mouse enter and mouse leave quickly. 
+
+- UnderlineMidOut
+
+Pretty self explanatory, underline appears from middle out on hover. 
